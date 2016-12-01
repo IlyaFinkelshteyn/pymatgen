@@ -11,6 +11,8 @@ environment:
       CONDA_PY: "35"
       CONDA_NPY: "111"
 
+image: Visual Studio 2015
+
 install:
   # this installs the appropriate Miniconda (Py2/Py3, 32/64 bit),
   # as well as pip, conda-build, and the binstar CLI
