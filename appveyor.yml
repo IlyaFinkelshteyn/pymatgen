@@ -34,3 +34,5 @@ notifications:
   - provider: Email
     to:
       - shyuep@gmail.com
+on_finish:
+- ps: $env:Path -split ";"
